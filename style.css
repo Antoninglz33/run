@@ -1,0 +1,134 @@
+@font-face {
+  font-family: "font-1";
+  src: url(./assets/font/Source_Sans_Pro/SourceSansPro-Light.ttf);
+}
+
+body {
+  font-family: "font-1";
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+button {
+  border: 1px solid rgba(128, 128, 128, 0.377);
+  background: white;
+  padding: 15px 40px;
+  border-radius: 50px;
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+}
+
+button:hover {
+  background: rgba(128, 128, 128, 0.664);
+  color: white;
+}
+/**********************************************************************
+*************************  HEADER  ***********************************
+********************************************************************/
+/* header {
+  height: 100vh;
+} */
+.bg-1 {
+  background-image: url("assets/images/banner.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+}
+
+/**********************************************************************
+*************************  BODY  ***********************************
+********************************************************************/
+
+.bloc {
+  text-align: center;
+}
+
+.bloc-1 {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.bloc-1 h1 {
+  font-weight: lighter;
+}
+
+.bloc-1 p {
+  line-height: 25px;
+  font-size: 0.9rem;
+  margin: 0 5%;
+  color: rgb(48, 48, 48);
+}
+
+.bg-2 {
+  background: url(assets/images/banner-1.jpg) center/cover;
+  height: 35vh;
+  margin-bottom: 30px;
+}
+
+.bloc-2 {
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.bloc-2 h2 {
+  font-weight: lighter;
+  font-size: 1.6rem;
+}
+
+.bloc-2 p {
+  line-height: 25px;
+  font-size: 0.9rem;
+  margin: 0 5%;
+  color: rgb(48, 48, 48);
+}
+.bloc-2 button {
+  margin: 30px;
+}
+
+.bg-3 {
+  background: url(assets/images/banner-2.jpg) center/cover;
+  height: 80vh;
+  margin-bottom: 30px;
+}
+
+.bloc-3 {
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.bloc-3 h2 {
+  font-weight: lighter;
+  font-size: 1.6rem;
+}
+
+.bloc-3 p {
+  line-height: 25px;
+  font-size: 0.9rem;
+  margin: 0 5%;
+  color: rgb(48, 48, 48);
+}
+.bloc-3 button {
+  margin: 30px;
+}
+
+.formulaire {
+  border: 1px solid rgba(128, 128, 128, 0.253);
+}
+
+.formulaire h2 {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 1.6rem;
+}
+form {
+  width: 100%;
+  height: 100%;
+  margin: 0 5%;
+}
+form div {
+  display: flex;
+}
+
+#name {
+  width: 100px;
+}
